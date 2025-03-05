@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Inter";
+  src: url("info/assets/fonts/Inter-Regular.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+div {
+  background-color: hsl(0, 0%, 12%);
+  padding: 3rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* 20px */
+}
+
+button {
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  padding: 1rem 1.5rem; /* 15px padding with 25px left/right */
+  margin-left: -0.625rem; /* -10px */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.875rem; /* 30px */
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  text-align: center;
+  font-size: 0.9375rem; /* 15px */
+  margin-top: -1.25rem; /* -20px */
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem; /* 15px */
+}
